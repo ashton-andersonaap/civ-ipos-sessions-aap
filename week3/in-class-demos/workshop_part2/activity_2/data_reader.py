@@ -11,7 +11,7 @@ def read_sales_data(filename):
         reader = csv.DictReader(csvfile)
         for row in reader:
             row["Units Sold"] = int(row['Units Sold'])
-            row["Units Price"] = float(row['Unit Price'])
+            row["Unit Price"] = float(row['Unit Price'])
             row["Total Revenue"] = float(row['Total Revenue'])
             sales_data.append(row)
     
@@ -20,15 +20,28 @@ def read_sales_data(filename):
 sales_data = read_sales_data('sales_data_v2.csv')
 # Calculate total revenue for each product
 product_revenue = {}
+product_units = {}
 for sale in sales_data:
     product = sale['Product']
     revenue = sale['Total Revenue']
-    product_revenue[product] = product_revenue.get(product, 0)
+    units_sold = sale['Units Sold']
+    product_revenue[product] = product_revenue.get(product, 0) + revenue
+    product_units[product] = product_units.get(product, 0) + units_sold
+
+print (product_revenue)
     
 # TODO: Identify the product with the highest total units sold
-
+max_units_sold_product = max(product_units, key = product_units.get)
 # TODO: Calculate average unit price for each product - watch out for division by zero
+product_unit_price = {}
+for product in product_units:
+    total_units = product_units[product]
+    total_revenue = product_revenue[product]
 
+    if total_units != 0:
+        product_unit_price[product] = total_revenue / total_units
+    else:
+        product_unit_price[product] = 0
 
 sales_data = read_sales_data('sales_data_v2.csv')
 # Display results
@@ -37,7 +50,7 @@ for product, revenue in product_revenue.items():
     print(f"{product}: ${revenue:.2f}")
 
 print("\nThe product with the highest total units sold:")
-print(max_units_sold_product)
+print(max_units_sold_product, product_units[max_units_sold_product], "units")
 
 print("\nAverage unit price for each product:")
 for product, avg_price in product_unit_price.items():
