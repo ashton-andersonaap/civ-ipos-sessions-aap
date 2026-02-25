@@ -1,10 +1,10 @@
-# we can also use the naming circle_test.py but name must include the term test and underscore + name of file we are testing
-# to run a unit test from console: python -m unittest (must be in project folder)
+# we can also use the naming circle_test.py but name must include the term tests and underscore + name of file we are testing
+# to run a unit tests from console: python -m unittest (must be in project folder)
 import unittest  # unit testing framework
 from math import pi
 
 # TODO change to absolute imports the function from the other file
-from circle import circle_area 
+from circle import circle_area
 
 
 class TestCircleArea(unittest.TestCase):
@@ -19,7 +19,7 @@ class TestCircleArea(unittest.TestCase):
         self.assertRaises(ValueError, circle_area, -2)
 
     # # uncomment these at end of video and add the snippet in snippet.py to circle.py to pass these tests
-    # def test_types(self):
-    #     self.assertRaises(TypeError, circle_area, 3 + 5j)
-    #     self.assertRaises(TypeError, circle_area, True)
-    #     self.assertRaises(TypeError, circle_area, 'radius')
+    def test_types(self):
+         self.assertRaises(TypeError, circle_area, 3 + 5j)
+         self.assertRaises(TypeError, circle_area, True)
+         self.assertRaises(TypeError, circle_area, 'radius')

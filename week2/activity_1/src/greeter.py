@@ -3,7 +3,7 @@ when creating python programs'''
 def greet(name):
     print(f"Hello, {name}")
 
-# create a calculator class and re-use this by instantiating it in the main.py
+# create a calculator class and re-use this by instantiating it in the test_greeter.py
 
 # So as not to contaminate your global namespace, it is good practice to use a main function.
 

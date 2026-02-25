@@ -144,13 +144,13 @@ uv pip install pyinstaller
 On Linux/macOS:
 
 ```bash
-pyinstaller --onefile main.py --add-data "flask_tic_tac_toe/templates:flask_tic_tac_toe/templates" --add-data "flask_tic_tac_toe/static:flask_tic_tac_toe/static"
+pyinstaller --onefile test_greeter.py --add-data "flask_tic_tac_toe/templates:flask_tic_tac_toe/templates" --add-data "flask_tic_tac_toe/static:flask_tic_tac_toe/static"
 ```
 
 On Windows:
 
 ```bash
-pyinstaller --onefile main.py --add-data "flask_tic_tac_toe/templates;flask_tic_tac_toe/templates" --add-data "flask_tic_tac_toe/static;flask_tic_tac_toe/static"
+pyinstaller --onefile test_greeter.py --add-data "flask_tic_tac_toe/templates;flask_tic_tac_toe/templates" --add-data "flask_tic_tac_toe/static;flask_tic_tac_toe/static"
 ```
 
 4. Run the binary:

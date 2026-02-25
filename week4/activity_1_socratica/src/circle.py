@@ -8,10 +8,13 @@ from math import pi
 
 def circle_area(r):
     # after running unit tests uncomment these lines then progress to adding in the snippet
-    # if r < 0:
-    #     raise ValueError("Radius cannot be negative.")
+     if r < 0:
+         raise ValueError("Radius cannot be negative.")
 
-    return pi * r**2
+
+     if type(r) not in [int, float]:
+        raise TypeError("The radius must be a non-negative real number")
+     return pi * r**2
 
 
 # Will this function work for all values of r?
@@ -25,4 +28,4 @@ if __name__ == '__main__':
         A = circle_area(r)
         # format is a function we haven't seen before that fills that values in {} braces with the values of the
         # variable
-        print(message.format(radius=r, area=A))
+        print(mess age.format(radius=r, area=A))
