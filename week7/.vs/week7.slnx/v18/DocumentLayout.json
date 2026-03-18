@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ANDERA\\source\\repos\\civ-ipos-sessions-aap\\week7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ANDERA\\source\\repos\\civ-ipos-sessions-aap\\week7\\lesson_outline.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lesson_outline.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ANDERA\\source\\repos\\civ-ipos-sessions-aap\\week7\\in-class-demos\\pytest_examples.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:in-class-demos\\pytest_examples.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ANDERA\\source\\repos\\civ-ipos-sessions-aap\\week7\\activities\\task_bug.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:activities\\task_bug.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ANDERA\\source\\repos\\civ-ipos-sessions-aap\\week7\\activities\\tac_tac_bug_toe.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:activities\\tac_tac_bug_toe.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lesson_outline.md",
+              "DocumentMoniker": "C:\\Users\\ANDERA\\source\\repos\\civ-ipos-sessions-aap\\week7\\lesson_outline.md",
+              "RelativeDocumentMoniker": "lesson_outline.md",
+              "ToolTip": "C:\\Users\\ANDERA\\source\\repos\\civ-ipos-sessions-aap\\week7\\lesson_outline.md",
+              "RelativeToolTip": "lesson_outline.md",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-18T06:03:48.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "pytest_examples.py",
+              "DocumentMoniker": "C:\\Users\\ANDERA\\source\\repos\\civ-ipos-sessions-aap\\week7\\in-class-demos\\pytest_examples.py",
+              "RelativeDocumentMoniker": "in-class-demos\\pytest_examples.py",
+              "ToolTip": "C:\\Users\\ANDERA\\source\\repos\\civ-ipos-sessions-aap\\week7\\in-class-demos\\pytest_examples.py",
+              "RelativeToolTip": "in-class-demos\\pytest_examples.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-03-18T06:03:42.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tac_tac_bug_toe.py",
+              "DocumentMoniker": "C:\\Users\\ANDERA\\source\\repos\\civ-ipos-sessions-aap\\week7\\activities\\tac_tac_bug_toe.py",
+              "RelativeDocumentMoniker": "activities\\tac_tac_bug_toe.py",
+              "ToolTip": "C:\\Users\\ANDERA\\source\\repos\\civ-ipos-sessions-aap\\week7\\activities\\tac_tac_bug_toe.py",
+              "RelativeToolTip": "activities\\tac_tac_bug_toe.py",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-03-18T06:03:15.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "task_bug.py",
+              "DocumentMoniker": "C:\\Users\\ANDERA\\source\\repos\\civ-ipos-sessions-aap\\week7\\activities\\task_bug.py",
+              "RelativeDocumentMoniker": "activities\\task_bug.py",
+              "ToolTip": "C:\\Users\\ANDERA\\source\\repos\\civ-ipos-sessions-aap\\week7\\activities\\task_bug.py",
+              "RelativeToolTip": "activities\\task_bug.py",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-03-18T06:03:00.762Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
