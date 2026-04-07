@@ -1,6 +1,6 @@
 board = [[' ' for _ in range(3)] for _ in range(3)]
 
-def print_board():
+def print_board(board):
     '''Prints the Tic-Tac-Toe board'''
     for row in board:
         print('|'.join(row))
@@ -52,15 +52,15 @@ def main():
     results = []
 
     while moves < 9:
-        print_board()
+        print_board(board)
         try:
             row, col = map(int, input(f"Player {current_player}, enter row and column (0-2) separated by space: ").split())
             if board[row][col] == ' ':
                 board[row][col] = current_player
-                win = is_win(current_player)
+                win = is_win(current_player, board)
                 results.append(win)
                 if win:
-                    print_board()
+                    print_board(board)
                     print(f"Player {current_player} wins!")
                     return
                 current_player = 'O' if current_player == 'X' else 'X'
